@@ -1,0 +1,88 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     background-color: rgb(151, 17, 192);
+}
+.btn{
+     border: 1px solid orange;
+     width: 100px;
+     height: 100px;
+     border-top-left-radius: 50%;
+     border-top-right-radius: 50%;
+     background-color: orange;
+     position: absolute;
+}
+.div1{
+     border: 1px solid orange;
+     width: 100px;
+     height: 100px;
+     border-top-left-radius: 50%;
+     border-top-right-radius: 50%;
+     background-color: orange;
+     position: absolute;
+     transform: rotate(180deg)translate(100%);
+     margin-top: 100px;
+}
+.all{
+     display: flex;
+     justify-content: center;
+     margin-top: 100px;
+     position: relative;
+}
+.div2{
+     border: 1px solid orange;
+     width: 100px;
+     height: 100px;
+     border-top-left-radius: 50%;
+     border-top-right-radius: 50%;
+     background-color: orange;
+     position: absolute;
+     transform: rotate(180deg)translate(-100%);
+     margin-top: 100px;
+}
+/* <div>
+<div></div>
+<div></div>
+</div>
+<style>
+  body{
+    background-color: #62306D;
+    margin: 0;
+  }
+  div:nth-child(1){
+    position: relative;
+  }
+  div:nth-child(2){
+    width: 100px;
+    height: 100px;
+    background-color: #F7EC7D;
+    margin: 150px;
+    margin-top: 50px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    position: absolute;
+  }
+  div:nth-child(3){
+    width: 100px;
+    height: 100px;
+    background-color: #F7EC7D;
+    margin: auto;
+    margin-top: 50px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    transform: rotate(180deg)translate(100%);
+
+  }
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting --> */
